@@ -1,0 +1,24 @@
+#include<conio.h>
+#include<iostream>
+#include<math.h>
+
+using namespace std;
+
+int main(){	
+	int   sum=0,num2, num1=0;
+	
+	cout <<"INGRESE LA CANTIDAD DE NUMEROS QUE DESEA SUMAR: ";
+	cin>> num1;
+
+	for(int i=1; i<= num1; i++)
+	{
+		
+		cout <<"INGRESE NUMERO: "<<endl;
+		cin>> num2;
+        sum = sum+num2;
+    
+		
+	}
+	cout<<"CANTIDAD DE NUMEROS SUMADOS: "<<num1<< " Y EL RESULTADO DE LA SUMA="<<sum;
+	
+}

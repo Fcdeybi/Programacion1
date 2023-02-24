@@ -1,0 +1,48 @@
+ #include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int edad;
+	string nombre;
+	int sexo;
+	
+	cout<< "nombre:  ";
+	cin>> nombre;
+	
+	cout<< "edad:  ";
+	cin>> edad;
+	
+	cout<< "sexo";
+	cout<< "\n1 = Mujer:  ";
+	cout<< "\n2 = Hombre:  ";
+	cin>> sexo;
+	
+	if (sexo>=2)
+	{
+		if(edad<=20)
+		{
+			cout<< "USTED ES JOVEN:  "<<nombre;
+	    }
+	    else
+	    {
+		    cout<< "USTED ES ADULTO:   "<<nombre;
+	    }
+	}
+	else
+	{
+		if (sexo>=1)
+		{
+			if(edad<=20)
+			{
+				cout<< "USTED ES JOVENCITA:   "<<nombre;
+			}
+		    else
+		    {
+		    	cout<< "USTED ES ADULTA:   "<<nombre;
+		    }
+		}
+	}
+	return 0;
+}
